@@ -1,0 +1,76 @@
+.block-seo-result {
+    display: flex;
+    justify-content: center;
+    color: #604B83;
+}
+
+.block-seo-result__info{
+    max-width: 522px;
+    margin: 0 7px 0 110px;
+}
+
+.block-seo-result__info h1 {
+    margin: 20px 0 26px 0;
+}
+
+.block-seo-result__info__desc {
+    max-width: 456px;
+    margin-bottom: 25px;
+}
+
+.block-seo-result__info__advantages {
+    display: flex;
+    justify-content: space-between;
+    width: 452px;
+    height: 168px;
+    padding: 0 10px;
+}
+
+.block-seo-result__info__advantages div{
+    margin-bottom: 14px;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.block-seo-result__info__advantages div svg{
+   margin-right: 19px;
+}
+
+@media (max-width: 1200px) {
+    .block-seo-result__info{
+        max-width: 522px;
+        margin: 5% 2%;
+    }
+    .back-image {
+        width: 400px;
+    }
+    .block-seo-result__info__advantages div{
+        margin-bottom: 10px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 870px) {
+    
+    .block-seo-result .containers {
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
+@media (max-width: 500px) {
+    .block-seo-result__info{
+        margin: 0 2%;
+    }
+    .block-seo-result__info__advantages {
+        width: 360px;
+    }
+    .block-seo-result__info__advantages div svg{
+        margin-right: 10px;
+     }
+     .back-image {
+        width: 350px;
+    }
+}

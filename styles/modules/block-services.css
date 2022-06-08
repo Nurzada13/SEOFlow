@@ -1,0 +1,85 @@
+.block-services {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #2C1258;
+}
+
+.block-services__container {
+    margin-top: 58px;
+    max-width: 1160px;
+    text-align: center;
+}
+
+.block-services__sevices-box {
+    width: 1160px;
+    display: flex;
+    justify-content: space-between;
+    margin: 31px 0 0 0px;
+}
+
+.block-services__sevices-box__item {
+    width: 165px;
+    height: 110px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 20px 60px 0px #0000000D;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.block-services__sevices-box__item:hover {
+    cursor: pointer;
+    background-color: #F4AB00;
+}
+
+.block-services__sevices-box__item img {
+    margin: 25px 0 13px 0;
+}
+
+.square {
+    width: 25px;
+    height: 25px;
+    background-color: #F4AB00;
+    position: absolute;
+    left: 70px;
+    top: 95px;
+}
+
+.block-services__content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+.block-services__info {
+    width: 420px;
+    text-align: start;
+    margin-top: 25px;
+}
+
+.block-services__info__title {
+    font-size: 34px;
+    line-height: 54px;
+    margin-bottom: 13px;
+}
+
+.block-services__info p {
+    margin-bottom: 20px;
+}
+
+.block-services__info__advantages {
+    margin-bottom: 14px;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.block-services__info__advantages svg {
+    margin: 0 17px 0 5px;
+}
+
+.block-services__info__btn {
+    margin-top: 25px;
+    width: 186px;
+    height: 52px;
+}

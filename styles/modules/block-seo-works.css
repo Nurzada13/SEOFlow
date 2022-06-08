@@ -1,0 +1,45 @@
+.block-seo-works {
+    background-color: #6425CB;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-weight: 400;
+    color:#FFFFFF;
+}
+
+.block-seo-works img {
+    width: 100%;
+}
+
+.block-seo-works__container {
+    max-width: 1160px;
+    align-items: center;
+    text-align: center;
+    padding: 58px 0;
+}
+
+.block-seo-works__container h1 span{
+    color: #F4AB00;
+}
+
+.block-seo-works__desc {
+    font-size: 18px;
+    line-height: 9px;
+    margin: 44px 0 88px 0;
+}
+
+.block-seo-works__step  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-seo-works__icon {
+    width: 55px;
+    height: 55px;
+}
+
+.line {
+    width: 297px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
