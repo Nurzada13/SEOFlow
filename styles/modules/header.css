@@ -2,38 +2,39 @@ header {
     width: 100%;
     background-color:#6425CB;
     display: flex;
-   justify-content: center;
-   flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 2%;
 }
 
-.head {
+.header-contact {
     width: 1160px;
     margin: 20px 0;
     display: flex;
     justify-content: space-between;
 }
 
-.head__info  {
+.header-contact__info  {
     display: flex;
 }
 
-.social {
+.header-contact__info__social {
     display: flex;
     color: #FFFFFF;
     font-size: 16px;
     line-height: 28px;
-    margin-right: 20px;
+    margin-right: 26px;
 }
 
-.social img {
+.header-contact__info__social img {
     margin-right: 12px;
 }
 
-.social-icons img{
+.header-contact__info__social-icons img{
     margin-left: 15px;
 }
 
-.container {
+.header-container {
     height: 94px;
     width: 1160px;
     padding: 27px 15px 26px 16px;
@@ -43,28 +44,84 @@ header {
     border-radius: 10px;
 }
 
-.logo {
-    margin-top: 7px;
+.header-container__logo {
+    margin-top: 12px;
 }
 
-.container ul {
+.header-container__menu {
     list-style: none;
     display: inline-flex;
-    margin-top: 7px;
+    margin: 8px 0 0 18px;
 }
 
-.container ul li {
+.header-container__menu li {
     margin-right: 30px;
 }
 
-.form-button {
+.header-container__form-button {
     width: 100px;
     height: 41px;
 }
 
-/* @media (max-width:1200px) {
-    header {
-        padding: 0 100px;
-    }
-} */
+.menu-icon {
+    margin-top: 10px;
+    width: 20px;
+    height: 14px;
+    cursor: pointer;
+    position: relative;
+    display: none;
+  }
+  .menu-icon span {
+    background-color: black;
+    height: 2px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    transition: all 0.3s ease;
+  }
+  .menu-icon span:first-child {
+    top: 0;
+  }
+  .menu-icon span:nth-child(2) {
+    top: 6px;
+  }
+  .menu-icon span:last-child {
+    top: 12px;
+  }
+  .menu-icon:hover span:nth-child(2) {
+    opacity: 0;
+  }
+  .menu-icon:hover span:first-child,
+  .menu-icon:hover span:last-child {
+    top: 6px;
+    background-color: red;
+  }
+  .menu-icon:hover span:first-child {
+    transform: rotate(45deg);
+  }
+  .menu-icon:hover span:last-child {
+    transform: rotate(-45deg);
+  }
 
+
+@media (max-width: 845px) {
+    .header-container__menu, .header-container__form-button {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}
+
+
+@media (max-width: 595px) {
+    .header-contact__info {
+        flex-wrap: wrap;
+        width: 200px;
+    }
+
+    .header-contact__info__social {
+        margin-top: 5px;
+    }
+}

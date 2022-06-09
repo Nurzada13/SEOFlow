@@ -4,9 +4,13 @@
     color: #604B83;
 }
 
+.block-seo-result__back-image {
+    margin-left: 30px;
+}
+
 .block-seo-result__info{
     max-width: 522px;
-    margin: 0 7px 0 110px;
+    margin: 0 7px 0 85px;
 }
 
 .block-seo-result__info h1 {
@@ -41,8 +45,9 @@
         max-width: 522px;
         margin: 5% 2%;
     }
-    .back-image {
+    .block-seo-result__back-image {
         width: 400px;
+        margin: 0;
     }
     .block-seo-result__info__advantages div{
         margin-bottom: 10px;
@@ -51,8 +56,7 @@
     }
 }
 
-@media (max-width: 870px) {
-    
+@media (max-width: 885px) {
     .block-seo-result .containers {
         display: flex;
         justify-content: center;
@@ -60,17 +64,19 @@
         align-items: center;
     }
 }
+
 @media (max-width: 500px) {
     .block-seo-result__info{
-        margin: 0 2%;
+        width: 350px;
     }
     .block-seo-result__info__advantages {
-        width: 360px;
+
+        width: 350px;
     }
     .block-seo-result__info__advantages div svg{
-        margin-right: 10px;
+        margin-right: 3px;
      }
-     .back-image {
+     .block-seo-result__back-image {
         width: 350px;
     }
 }

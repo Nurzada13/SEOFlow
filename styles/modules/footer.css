@@ -1,0 +1,153 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid rgba(44, 18, 88, 0.1);
+    font-weight: 400;
+    color: #604B83;
+}
+
+.footer-info-block {
+    margin: 70px 0 55px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    margin: 5px 0 20px 0;
+}
+
+.footer-info-block__desc {
+    width: 205px;
+    font-size: 15px;
+    line-height: 28px;
+    color: #604B83;
+}
+
+.footer-info-block__menu {
+    width: 180px;
+}
+
+.footer-info-block__services {
+    width: 235px;
+}
+
+.footer-info-block__getInTouch { 
+    width: 280px;
+    padding-right: 50px;
+}
+
+.footer-info-block__socials {
+    width: 174px;
+}
+
+.footer-info-block__about {
+    width: 295px;
+}
+
+.footer-info-block__subtitle{
+    font-size: 19px;
+    line-height: 30px;
+    color: #2C1258;
+    margin-bottom: 15px;
+}
+
+.footer-info-block__item {
+    list-style: none;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.footer-info-block__socials img {
+    margin-right: 30px;
+}
+
+.footer-line {
+    width: 100%;
+    background-color:#DFDFDF;
+    height: 1px;
+}
+
+.footer .containers {
+    flex-wrap: wrap;
+}
+
+.footer-info-block__socials__facebook {
+    width: 7px;
+}
+
+.footer-info-block__socials__twitter {
+    width: 23px;
+    height: 23px;
+}
+
+.footer-pow-by {
+    margin: 28px 0 41px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.footer-info-block__item li {
+    margin-bottom: 10px;
+}
+
+.footer-info-block__getInTouch__icon {
+    margin-right: 17px;
+}
+
+.footer-info-block__getInTouch__item {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.location-icon {
+    margin-top: -50px;
+}
+
+.footer-pow-by span {
+    color: #F4AB00;
+}
+
+@media (max-width: 1200px) {
+    .footer-info-block__menu, .footer-info-block__services {
+        width: 160px;
+    }
+    .footer-info-block__getInTouch { 
+        width: 190px;
+        padding-right: 0;
+    }
+    .footer-info-block__about {
+        width: 210px;
+    }
+}
+
+@media (max-width: 950px) {
+    .footer .containers {
+        padding: 0 2%;
+    }
+    .footer-info-block {
+        flex-wrap: wrap;
+    }
+    .footer-info-block__menu, .footer-info-block__services,.footer-info-block__getInTouch,
+    .footer-info-block__socials,  .footer-info-block__about {
+        margin-bottom: 20px;
+        width: 250px;
+    }
+    
+}
+
+@media (max-width:793px) {
+    .footer-info-block {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 575px) {
+    .footer-pow-by {
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 12px;
+    }
+}

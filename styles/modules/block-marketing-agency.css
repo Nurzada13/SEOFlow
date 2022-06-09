@@ -105,6 +105,7 @@
         flex-wrap: wrap;
     }
     .block-marketing-agency__container__box__desc {
+        width: 300px;
         margin-bottom: 40px;
     }
 }

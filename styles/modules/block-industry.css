@@ -7,7 +7,7 @@
 
 .block-industry__info {
     width: 580px;
-    padding-right: 40px;
+    margin-right: 70px;
 }
 
 .block-industry__info h1 {
@@ -42,7 +42,7 @@
 }
 
 @media (max-width: 1200px) {
-    .block-industry .containers img{
+    .industry-back-image{
       width: 400px;
     }
     
@@ -63,3 +63,32 @@
         padding-right: 40px;
     }
 }
+
+@media (max-width: 675px) {
+    .block-industry__info {
+        width: 350px;
+        margin: 0
+    }
+
+    .block-industry__info__statistics-item {
+        padding: 15px;
+        width: 160px;
+    }
+
+    .block-industry__info__statistics-item img {
+        width: 50px;
+    }
+
+    .block-industry__info__statistics-item p,.block-industry__info__statistics-item h4 {
+        margin-left: 10px;
+    }
+    .block-industry__info {
+        width: 350px;
+        padding: 0;
+    }
+
+    .industry-back-image {
+        width: 350px;
+    }
+}
+
