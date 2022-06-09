@@ -33,6 +33,18 @@ h3 {
     color: #FFFFFF;
 }
 
+.button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(247, 212, 13, 0.4);
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #FFFFFF;
+    border: 1px solid #F4AB00;
+    color: #F4AB00;
+   }
+
 .subtitle {
     font-size: 19px;
     line-height: 30px;

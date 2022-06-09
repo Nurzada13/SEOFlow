@@ -76,11 +76,12 @@
     }
 
     .block-industry__info__statistics-item img {
-        width: 50px;
+        width: 45px;
     }
 
     .block-industry__info__statistics-item p,.block-industry__info__statistics-item h4 {
         margin-left: 10px;
+        font-size: 15px;
     }
     .block-industry__info {
         width: 350px;

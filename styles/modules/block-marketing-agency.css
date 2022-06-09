@@ -89,17 +89,19 @@
     .block-marketing-agency__container__box__card img {
         width: 50px;
         height: 50px;
+        margin-right: 15px;
     }
     .block-marketing-agency__container__box__desc {
         width: 380px;
     }
     .block-marketing-agency__container__box__card p {
         line-height: 20px;
+        width: 245px;
         font-size: 14px;
     }
 }
 
-@media (max-width: 790px) {
+@media (max-width: 795px) {
     .block-marketing-agency__container {
         justify-content: center;
         flex-wrap: wrap;
@@ -107,5 +109,8 @@
     .block-marketing-agency__container__box__desc {
         width: 300px;
         margin-bottom: 40px;
+    }
+    .block-marketing-agency__container__box {
+        width: 300px;
     }
 }

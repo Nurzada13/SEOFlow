@@ -103,7 +103,7 @@
 
     .block-services__info {
         width: 360px;
-        margin-top: 0;
+        margin: 0 0 20px 0;
     }
 }
 

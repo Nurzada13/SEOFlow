@@ -43,7 +43,7 @@
 @media (max-width: 1200px) {
     .block-seo-result__info{
         max-width: 522px;
-        margin: 5% 2%;
+        margin: 5% 15px;
     }
     .block-seo-result__back-image {
         width: 400px;
@@ -67,11 +67,13 @@
 
 @media (max-width: 500px) {
     .block-seo-result__info{
-        width: 350px;
+        width: 320px;
     }
     .block-seo-result__info__advantages {
-
-        width: 350px;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 325px;
+        padding: 0;
     }
     .block-seo-result__info__advantages div svg{
         margin-right: 3px;

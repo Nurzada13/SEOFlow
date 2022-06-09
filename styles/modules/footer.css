@@ -102,6 +102,10 @@
     margin-bottom: 8px;
 }
 
+.footer-info-block__getInTouch__item a {
+    color: #2C1258;
+}
+
 .location-icon {
     margin-top: -50px;
 }
