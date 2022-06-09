@@ -69,7 +69,6 @@ header {
 }
 
 .menu-icon {
-    /* margin-top: 10px; */
     width: 20px;
     height: 14px;
     cursor: pointer;
@@ -119,7 +118,6 @@ header {
     }
 }
 
-
 @media (max-width: 595px) {
     .header-contact__info {
         flex-wrap: wrap;
@@ -129,4 +127,14 @@ header {
     .header-contact__info__social {
         margin-top: 5px;
     }
+}
+
+@media (max-width: 350px) {
+  .header-contact__info__social-icons {
+    display: none;
+  }
+
+  .header-contact__info__social {
+    font-size: 14px;
+  }
 }

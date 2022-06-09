@@ -93,3 +93,20 @@
     }
 }
 
+@media (max-width: 370px) {
+    .block-industry__info {
+        width: 260px;
+    }
+
+    .block-industry__info__statistics {
+        flex-wrap: wrap;
+    }
+
+    .block-industry__info__statistics-item {
+        margin-bottom: 10px;
+    }
+
+    .industry-back-image {
+        display: none;
+    }
+}

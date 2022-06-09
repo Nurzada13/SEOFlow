@@ -114,3 +114,25 @@
         width: 300px;
     }
 }
+
+@media (max-width: 370px) {
+    .block-marketing-agency__container__box__card p {
+        width: 200px;
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .block-marketing-agency__container__box__card img {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+
+    .block-marketing-agency__container__box, .block-marketing-agency__container__box__desc {
+        width: 250px;
+    }
+    .block-marketing-agency__container__box__card h3 {
+        font-size: 16px;
+        line-height: 25px;
+    }
+}

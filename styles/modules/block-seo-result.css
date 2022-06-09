@@ -70,8 +70,6 @@
         width: 320px;
     }
     .block-seo-result__info__advantages {
-        flex-wrap: wrap;
-        justify-content: center;
         width: 325px;
         padding: 0;
     }
@@ -80,5 +78,25 @@
      }
      .block-seo-result__back-image {
         width: 350px;
+    }
+}
+
+@media (max-width: 370px) {
+    .block-seo-result__back-image {
+        display: none;
+    }
+    .block-seo-result__info__advantages {
+        flex-wrap: wrap;
+        justify-content: start;
+        margin-left: 20%;
+        width: 265px;
+    }
+
+    .block-seo-result__info{
+        width: 240px;
+    }
+
+    .block-seo-result__info__advantages {
+        margin-left: 15%;
     }
 }

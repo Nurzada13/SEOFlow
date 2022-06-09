@@ -125,3 +125,13 @@
         width: 300px;
     }
 }
+
+@media (max-width: 350px) {   
+    .block-rate-otimization__card {
+        width: 280px;
+    }
+
+    .block-rate-otimization__info p{
+        width: 270px;
+    }
+}

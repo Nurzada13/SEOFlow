@@ -130,3 +130,23 @@
         height: 42px;
     }
 }
+
+@media (max-width: 385px) {
+    .block-services__info {
+        width: 261px;
+    }
+
+    .block-services__info__advantages svg {
+        margin: 0 5px;
+    }
+
+    .block-services__info__advantages {
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    .block-services__info__btn {
+        width: 100px;
+        height: 32px;
+    }
+}
