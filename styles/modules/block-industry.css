@@ -53,6 +53,9 @@
 }
 
 @media (max-width: 960px) {
+    .block-industry {
+        margin: 80px 0 15px 0;
+    }
     .block-industry .containers {
         display: flex;
         justify-content: center;
@@ -73,7 +76,6 @@
     .block-industry__info__statistics-item {
         padding: 15px;
     }
-    
 
     .block-industry__info__statistics-item img {
         width: 45px;
@@ -86,6 +88,9 @@
 
     .industry-back-image {
         width: 350px;
+    }
+    .block-industry__info__statistics   {
+        gap: 15px;
     }
 }
 

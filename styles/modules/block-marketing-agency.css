@@ -91,7 +91,7 @@
 
 @media (max-width: 975px) {
     .block-marketing-agency__container {
-        padding: 100px 20px;
+        padding: 50px 20px;
     }
     .block-marketing-agency__container__box__card img {
         width: 50px;
@@ -105,6 +105,9 @@
         line-height: 20px;
         width: 100%;
         font-size: 14px;
+    }
+    .block-marketing-agency {
+        margin-bottom: 80px;
     }
 }
 

@@ -119,7 +119,10 @@ header {
     }
 }
 
-@media (max-width: 595px) {
+@media (max-width: 615px) {
+  .header-contact {
+    margin: 15px 2px;
+  }
     .header-contact__info {
         flex-wrap: wrap;
         width: 200px;
