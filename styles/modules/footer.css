@@ -3,7 +3,6 @@
     justify-content: center;
     border-top: 1px solid rgba(44, 18, 88, 0.1);
     font-weight: 400;
-    color: #604B83;
 }
 
 .footer-info-block {
@@ -34,6 +33,11 @@
 .footer-info-block__getInTouch { 
     width: 280px;
     padding-right: 50px;
+    color: #604B83;
+}
+
+.footer-info-block__getInTouch a{ 
+    color: #604B83;
 }
 
 .footer-info-block__socials {
@@ -102,8 +106,8 @@
     margin-bottom: 8px;
 }
 
-.footer-info-block__getInTouch__item a {
-    color: #2C1258;
+.footer-info-block__getInTouch__item li a {
+    color: #2C1258 !important;
 }
 
 .location-icon {
@@ -165,5 +169,8 @@
     .footer-info-block__item {
         font-size: 14px;
         line-height: 26px;
+    }
+    .footer-pow-by {
+        font-size: 10px;
     }
 }

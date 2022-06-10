@@ -3,7 +3,7 @@
     justify-content: center;
     flex-wrap: wrap;
     color: #2C1258;
-    margin: 0 2%;
+    margin: 0 15px;
 }
 
 .block-services__container {
@@ -16,7 +16,7 @@
     width: 1160px;
     display: flex;
     justify-content: space-between;
-    margin: 31px 0 0 0px;
+    margin-top: 31px;
 }
 
 .block-services__sevices-box__item {
@@ -56,7 +56,7 @@
 .block-services__info {
     width: 420px;
     text-align: start;
-    margin-top: 25px;
+    margin: 25px 0 71px 0;
 }
 
 .block-services__info__title {
@@ -103,7 +103,6 @@
 
     .block-services__info {
         width: 360px;
-        margin: 0 0 20px 0;
     }
 }
 

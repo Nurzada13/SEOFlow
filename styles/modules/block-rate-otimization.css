@@ -69,9 +69,6 @@
     .block-rate-otimization__back-image {
         margin: -2px 0;
     }
-    .block-rate-otimization .containers {
-        margin: 0 2%;
-    }
     .block-rate-otimization__info {
         width: 300px;
     }
@@ -88,8 +85,12 @@
 @media (max-width: 1050px) { 
     .block-rate-otimization .containers {
         display: flex;
-        justify-content: center;
         flex-wrap: wrap;
+        width: 90%;
+    }
+
+    .card {
+        margin-left: 0;
     }
     .block-rate-otimization__info {
         margin-top: 80px;
@@ -102,17 +103,41 @@
     .block-rate-otimization__info p{
         width: 100%;
     }
+
+    .block-rate-otimization__card-block {
+        width: 100%;
+        margin-bottom: 30px;
 }
 
-@media (max-width: 730px) { 
+    .block-rate-otimization__card {
+        width: 100%;
+    }
+}
+
+@media (max-width: 970px) {
+    .block-rate-otimization__card {
+        height: 270px;
+    }
+}
+
+@media (max-width: 880px) {
+    .block-rate-otimization__card {
+        height: auto;
+    }
+    .block-rate-otimization__card-block {
+       margin-left: 20px;
+    }
+}
+
+@media (max-width: 765px) { 
     .block-rate-otimization__card-block{
         justify-content: center;
         flex-wrap: wrap;
+        margin-left: 0;
     }
 
     .block-rate-otimization__cards {
         margin: 0;
-        /* width: 100%; */
     }
     .block-rate-otimization__info__btn {
         width: 116px;
