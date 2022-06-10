@@ -65,14 +65,13 @@
 
 @media (max-width: 910px) {
     .block-seo-marketing {
-        padding: 10% 8%;
+        padding: 10% 4%;
     }
     .block-seo-marketing  img {
         width: 438px;
     }
     .block-seo-marketing__info p{
-        margin: 41px 0 25px 0;
-        width: 300px;
+        width: 100%;
     }
     .block-seo-marketing__info button {
         width: 146px;
@@ -94,7 +93,8 @@
        display: none;
     }
     .block-seo-marketing__info {
-        align-items: center;   
+        align-items: center; 
+        width: 100%;  
     }
 }
 
