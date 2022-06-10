@@ -106,7 +106,7 @@
     margin-bottom: 8px;
 }
 
-.footer-info-block__getInTouch__item li a {
+#item li a {
     color: #2C1258 !important;
 }
 
