@@ -55,19 +55,19 @@
     width: 270px;
 }
 
-.bg {
+.block-marketing-agency__bg {
     height: 150px;
     width: 100%;
     background-color: #6425CB;
   }
-  .bg-wrapper {
+  .block-marketing-agency__bg-wrapper {
     position: absolute;
     top: 0;
     z-index: 9;
     width: 100%;
   }
 
-  .bg-wrapper img {
+  .block-marketing-agency__bg-wrapper img {
     width: 100%;
   }
 
@@ -76,6 +76,10 @@
         margin: 0 2%;
         padding: 10% 2%;
     }
+
+    .block-marketing-agency__bg-wrapper img, .block-marketing-agency__bg {
+        margin-top: -2px;
+      }
 
     .block-marketing-agency__container__box__card {
         margin-right: 0;
